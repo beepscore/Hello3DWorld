@@ -202,53 +202,6 @@
 		DE0EBC4F11E26B4100EFB48B /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA8E11E26B4000EFB48B /* lundump.c */; };
 		DE0EBC5011E26B4100EFB48B /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9011E26B4000EFB48B /* lvm.c */; };
 		DE0EBC5111E26B4100EFB48B /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9211E26B4000EFB48B /* lzio.c */; };
-		DE0EBC5211E26B4100EFB48B /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9411E26B4000EFB48B /* print.c */; };
-		DE0EBC5311E26B4100EFB48B /* sio2_wrap.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9511E26B4000EFB48B /* sio2_wrap.c */; };
-		DE0EBC5411E26B4100EFB48B /* _std_common.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9711E26B4000EFB48B /* _std_common.i */; };
-		DE0EBC5511E26B4100EFB48B /* allkw.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBA9811E26B4000EFB48B /* allkw.swg */; };
-		DE0EBC5611E26B4100EFB48B /* attribute.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9911E26B4000EFB48B /* attribute.i */; };
-		DE0EBC5711E26B4100EFB48B /* carrays.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9A11E26B4000EFB48B /* carrays.i */; };
-		DE0EBC5811E26B4100EFB48B /* cdata.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9B11E26B4000EFB48B /* cdata.i */; };
-		DE0EBC5911E26B4100EFB48B /* cmalloc.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9C11E26B4000EFB48B /* cmalloc.i */; };
-		DE0EBC5A11E26B4100EFB48B /* constraints.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9D11E26B4000EFB48B /* constraints.i */; };
-		DE0EBC5B11E26B4100EFB48B /* cpointer.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9E11E26B4000EFB48B /* cpointer.i */; };
-		DE0EBC5C11E26B4100EFB48B /* cstring.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBA9F11E26B4000EFB48B /* cstring.i */; };
-		DE0EBC5D11E26B4100EFB48B /* cwstring.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAA011E26B4000EFB48B /* cwstring.i */; };
-		DE0EBC5E11E26B4100EFB48B /* exception.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAA111E26B4000EFB48B /* exception.i */; };
-		DE0EBC5F11E26B4100EFB48B /* inttypes.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAA211E26B4000EFB48B /* inttypes.i */; };
-		DE0EBC6011E26B4100EFB48B /* lua.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAA311E26B4000EFB48B /* lua.swg */; };
-		DE0EBC6111E26B4100EFB48B /* lua_fnptr.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAA411E26B4000EFB48B /* lua_fnptr.i */; };
-		DE0EBC6211E26B4100EFB48B /* luarun.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAA511E26B4000EFB48B /* luarun.swg */; };
-		DE0EBC6311E26B4100EFB48B /* luaruntime.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAA611E26B4000EFB48B /* luaruntime.swg */; };
-		DE0EBC6411E26B4100EFB48B /* luatypemaps.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAA711E26B4000EFB48B /* luatypemaps.swg */; };
-		DE0EBC6511E26B4100EFB48B /* math.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAA811E26B4000EFB48B /* math.i */; };
-		DE0EBC6611E26B4100EFB48B /* pointer.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAA911E26B4000EFB48B /* pointer.i */; };
-		DE0EBC6711E26B4100EFB48B /* runtime.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAAA11E26B4000EFB48B /* runtime.swg */; };
-		DE0EBC6811E26B4100EFB48B /* shared_ptr.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAAB11E26B4000EFB48B /* shared_ptr.i */; };
-		DE0EBC6911E26B4100EFB48B /* sio2.module in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAAC11E26B4000EFB48B /* sio2.module */; };
-		DE0EBC6A11E26B4100EFB48B /* sio2_to_lua in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAAD11E26B4000EFB48B /* sio2_to_lua */; };
-		DE0EBC6B11E26B4100EFB48B /* std_common.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAAE11E26B4000EFB48B /* std_common.i */; };
-		DE0EBC6C11E26B4100EFB48B /* std_deque.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAAF11E26B4000EFB48B /* std_deque.i */; };
-		DE0EBC6D11E26B4100EFB48B /* std_except.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAB011E26B4000EFB48B /* std_except.i */; };
-		DE0EBC6E11E26B4100EFB48B /* std_map.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAB111E26B4000EFB48B /* std_map.i */; };
-		DE0EBC6F11E26B4100EFB48B /* std_pair.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAB211E26B4000EFB48B /* std_pair.i */; };
-		DE0EBC7011E26B4100EFB48B /* std_string.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAB311E26B4000EFB48B /* std_string.i */; };
-		DE0EBC7111E26B4100EFB48B /* std_vector.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAB411E26B4000EFB48B /* std_vector.i */; };
-		DE0EBC7211E26B4100EFB48B /* stdint.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAB511E26B4000EFB48B /* stdint.i */; };
-		DE0EBC7311E26B4100EFB48B /* stl.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAB611E26B4000EFB48B /* stl.i */; };
-		DE0EBC7411E26B4100EFB48B /* swig in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAB711E26B4000EFB48B /* swig */; };
-		DE0EBC7511E26B4100EFB48B /* swig.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAB811E26B4000EFB48B /* swig.swg */; };
-		DE0EBC7611E26B4100EFB48B /* swigarch.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAB911E26B4000EFB48B /* swigarch.i */; };
-		DE0EBC7711E26B4100EFB48B /* swigerrors.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBABA11E26B4000EFB48B /* swigerrors.swg */; };
-		DE0EBC7811E26B4100EFB48B /* swiginit.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBABB11E26B4000EFB48B /* swiginit.swg */; };
-		DE0EBC7911E26B4100EFB48B /* swiglabels.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBABC11E26B4000EFB48B /* swiglabels.swg */; };
-		DE0EBC7A11E26B4100EFB48B /* swigrun.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBABD11E26B4000EFB48B /* swigrun.i */; };
-		DE0EBC7B11E26B4100EFB48B /* swigrun.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBABE11E26B4000EFB48B /* swigrun.swg */; };
-		DE0EBC7C11E26B4100EFB48B /* swigwarn.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBABF11E26B4000EFB48B /* swigwarn.swg */; };
-		DE0EBC7D11E26B4100EFB48B /* swigwarnings.swg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAC011E26B4000EFB48B /* swigwarnings.swg */; };
-		DE0EBC7E11E26B4100EFB48B /* typemaps.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAC111E26B4000EFB48B /* typemaps.i */; };
-		DE0EBC7F11E26B4100EFB48B /* wchar.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAC211E26B4000EFB48B /* wchar.i */; };
-		DE0EBC8011E26B4100EFB48B /* windows.i in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAC311E26B4000EFB48B /* windows.i */; };
 		DE0EBC8111E26B4100EFB48B /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAC511E26B4000EFB48B /* png.c */; };
 		DE0EBC8211E26B4100EFB48B /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAC811E26B4000EFB48B /* pngerror.c */; };
 		DE0EBC8311E26B4100EFB48B /* pnggccrd.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAC911E26B4000EFB48B /* pnggccrd.c */; };
@@ -268,8 +221,6 @@
 		DE0EBC9111E26B4100EFB48B /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAD711E26B4000EFB48B /* pngwutil.c */; };
 		DE0EBC9211E26B4100EFB48B /* poweredby_l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAD811E26B4000EFB48B /* poweredby_l.jpg */; };
 		DE0EBC9311E26B4100EFB48B /* poweredby_p.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBAD911E26B4000EFB48B /* poweredby_p.jpg */; };
-		DE0EBC9411E26B4100EFB48B /* libsio2_dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0EBADB11E26B4000EFB48B /* libsio2_dev.a */; };
-		DE0EBC9511E26B4100EFB48B /* libsio2_sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0EBADC11E26B4000EFB48B /* libsio2_sim.a */; };
 		DE0EBC9611E26B4100EFB48B /* sio2.cc in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBADD11E26B4000EFB48B /* sio2.cc */; };
 		DE0EBC9711E26B4100EFB48B /* sio2_action.cc in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBADF11E26B4000EFB48B /* sio2_action.cc */; };
 		DE0EBC9811E26B4100EFB48B /* sio2_camera.cc in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBAE111E26B4000EFB48B /* sio2_camera.cc */; };
@@ -354,6 +305,8 @@
 		DE0EBCE711E26B4100EFB48B /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBB8611E26B4100EFB48B /* uncompr.c */; };
 		DE0EBCE811E26B4100EFB48B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBB8711E26B4100EFB48B /* unzip.c */; };
 		DE0EBCE911E26B4100EFB48B /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = DE0EBB8B11E26B4100EFB48B /* zutil.c */; };
+		DE0EBD0611E270BA00EFB48B /* libsio2_dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0EBD0511E270BA00EFB48B /* libsio2_dev.a */; };
+		DE0EBD0811E270D500EFB48B /* libsio2_sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0EBD0711E270D500EFB48B /* libsio2_sim.a */; };
 		DE8D3E2211E01DFC006231D6 /* Hello3DWorld.sio2 in Resources */ = {isa = PBXBuildFile; fileRef = DE8D3E2111E01DFC006231D6 /* Hello3DWorld.sio2 */; };
 		DEAE0D8511DEC15F0042C31D /* beepscoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEAE0D8411DEC15F0042C31D /* beepscoreIcon.png */; };
 		E0E30D6B0E5EA2FA00F6D25F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E30D6A0E5EA2FA00F6D25F /* OpenAL.framework */; };
@@ -756,53 +709,6 @@
 		DE0EBA9111E26B4000EFB48B /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
 		DE0EBA9211E26B4000EFB48B /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
 		DE0EBA9311E26B4000EFB48B /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
-		DE0EBA9411E26B4000EFB48B /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
-		DE0EBA9511E26B4000EFB48B /* sio2_wrap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sio2_wrap.c; sourceTree = "<group>"; };
-		DE0EBA9711E26B4000EFB48B /* _std_common.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = _std_common.i; sourceTree = "<group>"; };
-		DE0EBA9811E26B4000EFB48B /* allkw.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = allkw.swg; sourceTree = "<group>"; };
-		DE0EBA9911E26B4000EFB48B /* attribute.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = attribute.i; sourceTree = "<group>"; };
-		DE0EBA9A11E26B4000EFB48B /* carrays.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = carrays.i; sourceTree = "<group>"; };
-		DE0EBA9B11E26B4000EFB48B /* cdata.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = cdata.i; sourceTree = "<group>"; };
-		DE0EBA9C11E26B4000EFB48B /* cmalloc.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = cmalloc.i; sourceTree = "<group>"; };
-		DE0EBA9D11E26B4000EFB48B /* constraints.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = constraints.i; sourceTree = "<group>"; };
-		DE0EBA9E11E26B4000EFB48B /* cpointer.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = cpointer.i; sourceTree = "<group>"; };
-		DE0EBA9F11E26B4000EFB48B /* cstring.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = cstring.i; sourceTree = "<group>"; };
-		DE0EBAA011E26B4000EFB48B /* cwstring.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = cwstring.i; sourceTree = "<group>"; };
-		DE0EBAA111E26B4000EFB48B /* exception.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = exception.i; sourceTree = "<group>"; };
-		DE0EBAA211E26B4000EFB48B /* inttypes.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = inttypes.i; sourceTree = "<group>"; };
-		DE0EBAA311E26B4000EFB48B /* lua.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lua.swg; sourceTree = "<group>"; };
-		DE0EBAA411E26B4000EFB48B /* lua_fnptr.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = lua_fnptr.i; sourceTree = "<group>"; };
-		DE0EBAA511E26B4000EFB48B /* luarun.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luarun.swg; sourceTree = "<group>"; };
-		DE0EBAA611E26B4000EFB48B /* luaruntime.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luaruntime.swg; sourceTree = "<group>"; };
-		DE0EBAA711E26B4000EFB48B /* luatypemaps.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luatypemaps.swg; sourceTree = "<group>"; };
-		DE0EBAA811E26B4000EFB48B /* math.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = math.i; sourceTree = "<group>"; };
-		DE0EBAA911E26B4000EFB48B /* pointer.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = pointer.i; sourceTree = "<group>"; };
-		DE0EBAAA11E26B4000EFB48B /* runtime.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = runtime.swg; sourceTree = "<group>"; };
-		DE0EBAAB11E26B4000EFB48B /* shared_ptr.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = shared_ptr.i; sourceTree = "<group>"; };
-		DE0EBAAC11E26B4000EFB48B /* sio2.module */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sio2.module; sourceTree = "<group>"; };
-		DE0EBAAD11E26B4000EFB48B /* sio2_to_lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = sio2_to_lua; sourceTree = "<group>"; };
-		DE0EBAAE11E26B4000EFB48B /* std_common.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = std_common.i; sourceTree = "<group>"; };
-		DE0EBAAF11E26B4000EFB48B /* std_deque.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = std_deque.i; sourceTree = "<group>"; };
-		DE0EBAB011E26B4000EFB48B /* std_except.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = std_except.i; sourceTree = "<group>"; };
-		DE0EBAB111E26B4000EFB48B /* std_map.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = std_map.i; sourceTree = "<group>"; };
-		DE0EBAB211E26B4000EFB48B /* std_pair.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = std_pair.i; sourceTree = "<group>"; };
-		DE0EBAB311E26B4000EFB48B /* std_string.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = std_string.i; sourceTree = "<group>"; };
-		DE0EBAB411E26B4000EFB48B /* std_vector.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = std_vector.i; sourceTree = "<group>"; };
-		DE0EBAB511E26B4000EFB48B /* stdint.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = stdint.i; sourceTree = "<group>"; };
-		DE0EBAB611E26B4000EFB48B /* stl.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = stl.i; sourceTree = "<group>"; };
-		DE0EBAB711E26B4000EFB48B /* swig */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = swig; sourceTree = "<group>"; };
-		DE0EBAB811E26B4000EFB48B /* swig.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swig.swg; sourceTree = "<group>"; };
-		DE0EBAB911E26B4000EFB48B /* swigarch.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = swigarch.i; sourceTree = "<group>"; };
-		DE0EBABA11E26B4000EFB48B /* swigerrors.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swigerrors.swg; sourceTree = "<group>"; };
-		DE0EBABB11E26B4000EFB48B /* swiginit.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swiginit.swg; sourceTree = "<group>"; };
-		DE0EBABC11E26B4000EFB48B /* swiglabels.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swiglabels.swg; sourceTree = "<group>"; };
-		DE0EBABD11E26B4000EFB48B /* swigrun.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = swigrun.i; sourceTree = "<group>"; };
-		DE0EBABE11E26B4000EFB48B /* swigrun.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swigrun.swg; sourceTree = "<group>"; };
-		DE0EBABF11E26B4000EFB48B /* swigwarn.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swigwarn.swg; sourceTree = "<group>"; };
-		DE0EBAC011E26B4000EFB48B /* swigwarnings.swg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swigwarnings.swg; sourceTree = "<group>"; };
-		DE0EBAC111E26B4000EFB48B /* typemaps.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = typemaps.i; sourceTree = "<group>"; };
-		DE0EBAC211E26B4000EFB48B /* wchar.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = wchar.i; sourceTree = "<group>"; };
-		DE0EBAC311E26B4000EFB48B /* windows.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = windows.i; sourceTree = "<group>"; };
 		DE0EBAC511E26B4000EFB48B /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = png.c; sourceTree = "<group>"; };
 		DE0EBAC611E26B4000EFB48B /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
 		DE0EBAC711E26B4000EFB48B /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
@@ -824,8 +730,6 @@
 		DE0EBAD711E26B4000EFB48B /* pngwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwutil.c; sourceTree = "<group>"; };
 		DE0EBAD811E26B4000EFB48B /* poweredby_l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poweredby_l.jpg; sourceTree = "<group>"; };
 		DE0EBAD911E26B4000EFB48B /* poweredby_p.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poweredby_p.jpg; sourceTree = "<group>"; };
-		DE0EBADB11E26B4000EFB48B /* libsio2_dev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsio2_dev.a; sourceTree = "<group>"; };
-		DE0EBADC11E26B4000EFB48B /* libsio2_sim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsio2_sim.a; sourceTree = "<group>"; };
 		DE0EBADD11E26B4000EFB48B /* sio2.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sio2.cc; sourceTree = "<group>"; };
 		DE0EBADE11E26B4000EFB48B /* sio2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sio2.h; sourceTree = "<group>"; };
 		DE0EBADF11E26B4000EFB48B /* sio2_action.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sio2_action.cc; sourceTree = "<group>"; };
@@ -999,6 +903,8 @@
 		DE0EBB8A11E26B4100EFB48B /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
 		DE0EBB8B11E26B4100EFB48B /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
 		DE0EBB8C11E26B4100EFB48B /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+		DE0EBD0511E270BA00EFB48B /* libsio2_dev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsio2_dev.a; sourceTree = "<group>"; };
+		DE0EBD0711E270D500EFB48B /* libsio2_sim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsio2_sim.a; sourceTree = "<group>"; };
 		DE8D3E2111E01DFC006231D6 /* Hello3DWorld.sio2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hello3DWorld.sio2; sourceTree = "<group>"; };
 		DEAE0D8411DEC15F0042C31D /* beepscoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beepscoreIcon.png; sourceTree = "<group>"; };
 		E0E30D6A0E5EA2FA00F6D25F /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -1018,8 +924,8 @@
 				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
 				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
 				E0E30D6B0E5EA2FA00F6D25F /* OpenAL.framework in Frameworks */,
-				DE0EBC9411E26B4100EFB48B /* libsio2_dev.a in Frameworks */,
-				DE0EBC9511E26B4100EFB48B /* libsio2_sim.a in Frameworks */,
+				DE0EBD0611E270BA00EFB48B /* libsio2_dev.a in Frameworks */,
+				DE0EBD0811E270D500EFB48B /* libsio2_sim.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1085,6 +991,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE0EBD0711E270D500EFB48B /* libsio2_sim.a */,
+				DE0EBD0511E270BA00EFB48B /* libsio2_dev.a */,
 				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
 				E0E30D6A0E5EA2FA00F6D25F /* OpenAL.framework */,
 				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
@@ -1510,63 +1418,8 @@
 				DE0EBA9111E26B4000EFB48B /* lvm.h */,
 				DE0EBA9211E26B4000EFB48B /* lzio.c */,
 				DE0EBA9311E26B4000EFB48B /* lzio.h */,
-				DE0EBA9411E26B4000EFB48B /* print.c */,
-				DE0EBA9511E26B4000EFB48B /* sio2_wrap.c */,
-				DE0EBA9611E26B4000EFB48B /* swig */,
 			);
 			path = lua;
-			sourceTree = "<group>";
-		};
-		DE0EBA9611E26B4000EFB48B /* swig */ = {
-			isa = PBXGroup;
-			children = (
-				DE0EBA9711E26B4000EFB48B /* _std_common.i */,
-				DE0EBA9811E26B4000EFB48B /* allkw.swg */,
-				DE0EBA9911E26B4000EFB48B /* attribute.i */,
-				DE0EBA9A11E26B4000EFB48B /* carrays.i */,
-				DE0EBA9B11E26B4000EFB48B /* cdata.i */,
-				DE0EBA9C11E26B4000EFB48B /* cmalloc.i */,
-				DE0EBA9D11E26B4000EFB48B /* constraints.i */,
-				DE0EBA9E11E26B4000EFB48B /* cpointer.i */,
-				DE0EBA9F11E26B4000EFB48B /* cstring.i */,
-				DE0EBAA011E26B4000EFB48B /* cwstring.i */,
-				DE0EBAA111E26B4000EFB48B /* exception.i */,
-				DE0EBAA211E26B4000EFB48B /* inttypes.i */,
-				DE0EBAA311E26B4000EFB48B /* lua.swg */,
-				DE0EBAA411E26B4000EFB48B /* lua_fnptr.i */,
-				DE0EBAA511E26B4000EFB48B /* luarun.swg */,
-				DE0EBAA611E26B4000EFB48B /* luaruntime.swg */,
-				DE0EBAA711E26B4000EFB48B /* luatypemaps.swg */,
-				DE0EBAA811E26B4000EFB48B /* math.i */,
-				DE0EBAA911E26B4000EFB48B /* pointer.i */,
-				DE0EBAAA11E26B4000EFB48B /* runtime.swg */,
-				DE0EBAAB11E26B4000EFB48B /* shared_ptr.i */,
-				DE0EBAAC11E26B4000EFB48B /* sio2.module */,
-				DE0EBAAD11E26B4000EFB48B /* sio2_to_lua */,
-				DE0EBAAE11E26B4000EFB48B /* std_common.i */,
-				DE0EBAAF11E26B4000EFB48B /* std_deque.i */,
-				DE0EBAB011E26B4000EFB48B /* std_except.i */,
-				DE0EBAB111E26B4000EFB48B /* std_map.i */,
-				DE0EBAB211E26B4000EFB48B /* std_pair.i */,
-				DE0EBAB311E26B4000EFB48B /* std_string.i */,
-				DE0EBAB411E26B4000EFB48B /* std_vector.i */,
-				DE0EBAB511E26B4000EFB48B /* stdint.i */,
-				DE0EBAB611E26B4000EFB48B /* stl.i */,
-				DE0EBAB711E26B4000EFB48B /* swig */,
-				DE0EBAB811E26B4000EFB48B /* swig.swg */,
-				DE0EBAB911E26B4000EFB48B /* swigarch.i */,
-				DE0EBABA11E26B4000EFB48B /* swigerrors.swg */,
-				DE0EBABB11E26B4000EFB48B /* swiginit.swg */,
-				DE0EBABC11E26B4000EFB48B /* swiglabels.swg */,
-				DE0EBABD11E26B4000EFB48B /* swigrun.i */,
-				DE0EBABE11E26B4000EFB48B /* swigrun.swg */,
-				DE0EBABF11E26B4000EFB48B /* swigwarn.swg */,
-				DE0EBAC011E26B4000EFB48B /* swigwarnings.swg */,
-				DE0EBAC111E26B4000EFB48B /* typemaps.i */,
-				DE0EBAC211E26B4000EFB48B /* wchar.i */,
-				DE0EBAC311E26B4000EFB48B /* windows.i */,
-			);
-			path = swig;
 			sourceTree = "<group>";
 		};
 		DE0EBAC411E26B4000EFB48B /* png */ = {
@@ -1598,8 +1451,6 @@
 		DE0EBADA11E26B4000EFB48B /* sio2 */ = {
 			isa = PBXGroup;
 			children = (
-				DE0EBADB11E26B4000EFB48B /* libsio2_dev.a */,
-				DE0EBADC11E26B4000EFB48B /* libsio2_sim.a */,
 				DE0EBADD11E26B4000EFB48B /* sio2.cc */,
 				DE0EBADE11E26B4000EFB48B /* sio2.h */,
 				DE0EBADF11E26B4000EFB48B /* sio2_action.cc */,
@@ -1844,22 +1695,6 @@
 				E0E313F70E5EA78B00F6D25F /* Default.png in Resources */,
 				DEAE0D8511DEC15F0042C31D /* beepscoreIcon.png in Resources */,
 				DE8D3E2211E01DFC006231D6 /* Hello3DWorld.sio2 in Resources */,
-				DE0EBC5511E26B4100EFB48B /* allkw.swg in Resources */,
-				DE0EBC6011E26B4100EFB48B /* lua.swg in Resources */,
-				DE0EBC6211E26B4100EFB48B /* luarun.swg in Resources */,
-				DE0EBC6311E26B4100EFB48B /* luaruntime.swg in Resources */,
-				DE0EBC6411E26B4100EFB48B /* luatypemaps.swg in Resources */,
-				DE0EBC6711E26B4100EFB48B /* runtime.swg in Resources */,
-				DE0EBC6911E26B4100EFB48B /* sio2.module in Resources */,
-				DE0EBC6A11E26B4100EFB48B /* sio2_to_lua in Resources */,
-				DE0EBC7411E26B4100EFB48B /* swig in Resources */,
-				DE0EBC7511E26B4100EFB48B /* swig.swg in Resources */,
-				DE0EBC7711E26B4100EFB48B /* swigerrors.swg in Resources */,
-				DE0EBC7811E26B4100EFB48B /* swiginit.swg in Resources */,
-				DE0EBC7911E26B4100EFB48B /* swiglabels.swg in Resources */,
-				DE0EBC7B11E26B4100EFB48B /* swigrun.swg in Resources */,
-				DE0EBC7C11E26B4100EFB48B /* swigwarn.swg in Resources */,
-				DE0EBC7D11E26B4100EFB48B /* swigwarnings.swg in Resources */,
 				DE0EBC9211E26B4100EFB48B /* poweredby_l.jpg in Resources */,
 				DE0EBC9311E26B4100EFB48B /* poweredby_p.jpg in Resources */,
 			);
@@ -2063,37 +1898,6 @@
 				DE0EBC4F11E26B4100EFB48B /* lundump.c in Sources */,
 				DE0EBC5011E26B4100EFB48B /* lvm.c in Sources */,
 				DE0EBC5111E26B4100EFB48B /* lzio.c in Sources */,
-				DE0EBC5211E26B4100EFB48B /* print.c in Sources */,
-				DE0EBC5311E26B4100EFB48B /* sio2_wrap.c in Sources */,
-				DE0EBC5411E26B4100EFB48B /* _std_common.i in Sources */,
-				DE0EBC5611E26B4100EFB48B /* attribute.i in Sources */,
-				DE0EBC5711E26B4100EFB48B /* carrays.i in Sources */,
-				DE0EBC5811E26B4100EFB48B /* cdata.i in Sources */,
-				DE0EBC5911E26B4100EFB48B /* cmalloc.i in Sources */,
-				DE0EBC5A11E26B4100EFB48B /* constraints.i in Sources */,
-				DE0EBC5B11E26B4100EFB48B /* cpointer.i in Sources */,
-				DE0EBC5C11E26B4100EFB48B /* cstring.i in Sources */,
-				DE0EBC5D11E26B4100EFB48B /* cwstring.i in Sources */,
-				DE0EBC5E11E26B4100EFB48B /* exception.i in Sources */,
-				DE0EBC5F11E26B4100EFB48B /* inttypes.i in Sources */,
-				DE0EBC6111E26B4100EFB48B /* lua_fnptr.i in Sources */,
-				DE0EBC6511E26B4100EFB48B /* math.i in Sources */,
-				DE0EBC6611E26B4100EFB48B /* pointer.i in Sources */,
-				DE0EBC6811E26B4100EFB48B /* shared_ptr.i in Sources */,
-				DE0EBC6B11E26B4100EFB48B /* std_common.i in Sources */,
-				DE0EBC6C11E26B4100EFB48B /* std_deque.i in Sources */,
-				DE0EBC6D11E26B4100EFB48B /* std_except.i in Sources */,
-				DE0EBC6E11E26B4100EFB48B /* std_map.i in Sources */,
-				DE0EBC6F11E26B4100EFB48B /* std_pair.i in Sources */,
-				DE0EBC7011E26B4100EFB48B /* std_string.i in Sources */,
-				DE0EBC7111E26B4100EFB48B /* std_vector.i in Sources */,
-				DE0EBC7211E26B4100EFB48B /* stdint.i in Sources */,
-				DE0EBC7311E26B4100EFB48B /* stl.i in Sources */,
-				DE0EBC7611E26B4100EFB48B /* swigarch.i in Sources */,
-				DE0EBC7A11E26B4100EFB48B /* swigrun.i in Sources */,
-				DE0EBC7E11E26B4100EFB48B /* typemaps.i in Sources */,
-				DE0EBC7F11E26B4100EFB48B /* wchar.i in Sources */,
-				DE0EBC8011E26B4100EFB48B /* windows.i in Sources */,
 				DE0EBC8111E26B4100EFB48B /* png.c in Sources */,
 				DE0EBC8211E26B4100EFB48B /* pngerror.c in Sources */,
 				DE0EBC8311E26B4100EFB48B /* pnggccrd.c in Sources */,
@@ -2218,6 +2022,7 @@
 					"\"$(SRCROOT)/..\"",
 					"\"$(SRCROOT)/../src/sio2\"",
 					"\"$(SRCROOT)/src/sio2\"",
+					"\"$(SRCROOT)\"",
 				);
 				OTHER_CFLAGS = (
 					"-fno-regmove",
@@ -2249,6 +2054,7 @@
 					"\"$(SRCROOT)/..\"",
 					"\"$(SRCROOT)/../src/sio2\"",
 					"\"$(SRCROOT)/src/sio2\"",
+					"\"$(SRCROOT)\"",
 				);
 				OTHER_CFLAGS = (
 					"-fno-regmove",
