@@ -1,3 +1,7 @@
 This project is based on the book "3D for iPhone Apps" by Mullen, Chapter 3, 4, 5.
 It uses SIO2_SDK v 1.4. 
 The initial commit runs with the Xcode project folder inside SIO2_SDK.
+
+Edited project to include SIO2.
+Reference: Including SIO2 in existing Xcode project.
+http://forum.sio2interactive.com/viewtopic.php?f=4&t=392
