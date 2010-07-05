@@ -12,7 +12,9 @@
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
 
-#include "../../src/sio2/sio2.h"
+// beepscore
+// #include "../../src/sio2/sio2.h"
+#include "sio2.h"
 
 /*
 This class wraps the CAEAGLLayer from CoreAnimation into a convenient UIView subclass.

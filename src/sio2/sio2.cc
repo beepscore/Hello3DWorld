@@ -130,7 +130,7 @@ making your product available.
 #ifndef SIO2_WRAP_C
 #define SIO2_WRAP_C
 
-	#include "../lua/sio2_wrap.c"
+//	#include "../lua/sio2_wrap.c"
 #endif
 
 SIO2 *sio2 = NULL;
@@ -341,8 +341,9 @@ void sio2InitLUA( void )
 		++lib;
 	}
 
-	luaopen_SIO2( sio2->_lua_State );
-	printf("%s\n", SWIG_name );
+    // beepscore
+	// luaopen_SIO2( sio2->_lua_State );
+	// printf("%s\n", SWIG_name );
 }
 
 
@@ -433,7 +434,8 @@ void sio2ResetLUA( void )
 	
 	luaL_openlibs( sio2->_lua_State );
 
-	luaopen_SIO2( sio2->_lua_State );
+    // beepscore
+    // luaopen_SIO2( sio2->_lua_State );
 }
 
 

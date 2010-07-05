@@ -9,7 +9,9 @@
 
 #include "template.h"
 
-#include "../src/sio2/sio2.h"
+// beepscore
+// #include "../src/sio2/sio2.h"
+#include "sio2.h"
 
 float spin_factor = 0.0;
 vec2 start;
