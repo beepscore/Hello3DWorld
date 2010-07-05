@@ -309,6 +309,7 @@
 		DE0EBD0811E270D500EFB48B /* libsio2_sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0EBD0711E270D500EFB48B /* libsio2_sim.a */; };
 		DE8D3E2211E01DFC006231D6 /* Hello3DWorld.sio2 in Resources */ = {isa = PBXBuildFile; fileRef = DE8D3E2111E01DFC006231D6 /* Hello3DWorld.sio2 */; };
 		DEAE0D8511DEC15F0042C31D /* beepscoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEAE0D8411DEC15F0042C31D /* beepscoreIcon.png */; };
+		DEEA8A0B11E27DDE00120328 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = DEEA8A0A11E27DDE00120328 /* print.c */; };
 		E0E30D6B0E5EA2FA00F6D25F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E30D6A0E5EA2FA00F6D25F /* OpenAL.framework */; };
 		E0E310890E5EA40200F6D25F /* template.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0E310880E5EA40200F6D25F /* template.mm */; };
 		E0E313F70E5EA78B00F6D25F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E313F50E5EA78B00F6D25F /* Default.png */; };
@@ -907,6 +908,7 @@
 		DE0EBD0711E270D500EFB48B /* libsio2_sim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsio2_sim.a; sourceTree = "<group>"; };
 		DE8D3E2111E01DFC006231D6 /* Hello3DWorld.sio2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hello3DWorld.sio2; sourceTree = "<group>"; };
 		DEAE0D8411DEC15F0042C31D /* beepscoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beepscoreIcon.png; sourceTree = "<group>"; };
+		DEEA8A0A11E27DDE00120328 /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
 		E0E30D6A0E5EA2FA00F6D25F /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		E0E310860E5EA3C300F6D25F /* main.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = main.h; sourceTree = "<group>"; };
 		E0E310870E5EA40200F6D25F /* template.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = template.h; sourceTree = "<group>"; };
@@ -1364,6 +1366,7 @@
 		DE0EBA5D11E26B4000EFB48B /* lua */ = {
 			isa = PBXGroup;
 			children = (
+				DEEA8A0A11E27DDE00120328 /* print.c */,
 				DE0EBA5E11E26B4000EFB48B /* lapi.c */,
 				DE0EBA5F11E26B4000EFB48B /* lapi.h */,
 				DE0EBA6011E26B4000EFB48B /* lauxlib.c */,
@@ -1999,6 +2002,7 @@
 				DE0EBCE711E26B4100EFB48B /* uncompr.c in Sources */,
 				DE0EBCE811E26B4100EFB48B /* unzip.c in Sources */,
 				DE0EBCE911E26B4100EFB48B /* zutil.c in Sources */,
+				DEEA8A0B11E27DDE00120328 /* print.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
