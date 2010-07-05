@@ -14,7 +14,11 @@
 #include "sio2.h"
 
 float spin_factor = 0.0;
+SIO2object *selection = NULL;
+unsigned char tap_select = 0;
+unsigned char message = 0;
 vec2 start;
+vec2 t;
 
 
 void templateLoading ( void )
@@ -90,7 +94,35 @@ void templateRender( void )
                            sio2->_SIO2window, 
                            sio2->_SIO2camera, 
                            SIO2_RENDER_SOLID_OBJECT | SIO2_RENDER_LAMP);
+
+        if(tap_select){
+            tap_select = 0;
+            sio2LampResetLight();
+            sio2MaterialReset();
+            
+            t.x = sio2->_SIO2window->touch[ 0 ]->x;
+            t.y = sio2->_SIO2window->scl->y -sio2->_SIO2window->touch[ 0 ]->y;
+            
+            selection = sio2ResourceSelect3D( sio2->_SIO2resource, 
+                                             sio2->_SIO2camera, 
+                                             sio2->_SIO2window, 
+                                             &t);
+            if(selection)
+            {
+                if(strcmp( selection->name, "object/Sphere" ) == 0)
+                {
+                    message = 2;
+                }else{
+                    message = 1;
+                }
+            } else {
+                message = 1;
+            }
+        }
         
+        NSLog(@"templateRender message %d", message);
+        
+        // font rendering code will go here
 	}
 }
 
@@ -116,6 +148,10 @@ void templateScreenTap( void *_ptr, unsigned char _state )
     {
 		start.x = sio2->_SIO2window->touch[ 0 ]->x;
 		start.y = sio2->_SIO2window->touch[ 0 ]->y;
+        if( sio2->_SIO2window->n_tap == 2)
+		{
+			tap_select = 1;
+		}        
 	}    
 }
 
