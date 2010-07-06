@@ -22,6 +22,72 @@ SIO2object *selection = NULL;
 
 vec2 t;
 
+void templateLoading ( void )
+{
+	unsigned int i = 0;
+	
+	sio2ResourceCreateDictionary( sio2->_SIO2resource );
+	
+	sio2ResourceOpen( sio2->_SIO2resource, 
+					 "Hello3DWorld.sio2", 1);
+	
+	while( i != sio2->_SIO2resource->gi.number_entry )
+	{
+		sio2ResourceExtract( sio2->_SIO2resource, NULL );
+		++i;
+	}
+	
+	sio2ResourceClose( sio2->_SIO2resource );
+	sio2ResourceBindAllImages( sio2->_SIO2resource );
+	sio2ResourceBindAllMaterials( sio2->_SIO2resource );
+	sio2ResourceBindAllMatrix( sio2->_SIO2resource );
+	sio2ResourceGenId( sio2->_SIO2resource );
+	sio2ResetState();
+	
+	SIO2image		*_SIO2image		= NULL;
+	SIO2material	*_SIO2material	= NULL;
+	SIO2stream		*_SIO2stream	= NULL;
+	
+	_SIO2stream = sio2StreamOpen( "default16x16.tga", 1 );
+	
+	if( _SIO2stream )
+	{
+		_SIO2image = sio2ImageInit( "default16x16.tga" );
+		
+		{
+			sio2ImageLoad(	_SIO2image, _SIO2stream );
+			sio2ImageGenId( _SIO2image, NULL, 0.0f );
+		}
+		_SIO2stream = sio2StreamClose( _SIO2stream );
+		
+		_SIO2material = sio2MaterialInit( "default16x16" );
+        
+		{
+			_SIO2material->blend = SIO2_MATERIAL_COLOR;
+			_SIO2material->_SIO2image[ SIO2_MATERIAL_CHANNEL0 ] = _SIO2image;
+		}
+        
+		_SIO2font_default = sio2FontInit( "default16x16" );
+        
+		_SIO2font_default->_SIO2material = _SIO2material;
+		_SIO2font_default->n_char		= 16;
+		_SIO2font_default->size			= 16.0f;
+		_SIO2font_default->space		= 8.0f;
+		sio2FontBuild( _SIO2font_default );
+	}
+    
+	sio2->_SIO2camera = sio2ResourceGetCamera( sio2->_SIO2resource, 
+                                              "camera/Camera");
+    
+	sio2Perspective( sio2->_SIO2camera->fov,
+                    sio2->_SIO2window->scl->x / sio2->_SIO2window->scl->y,
+                    sio2->_SIO2camera->cstart,
+                    sio2->_SIO2camera->cend );
+	
+	sio2->_SIO2window->_SIO2windowrender = templateRender;
+}
+
+
 void templateRender( void )
 {
 	glMatrixMode( GL_MODELVIEW );
@@ -159,70 +225,6 @@ void templateShutdown( void )
 	printf("\nSIO2: shutdown...\n" );
 }
 
-void templateLoading ( void )
-{
-	unsigned int i = 0;
-	
-	sio2ResourceCreateDictionary( sio2->_SIO2resource );
-	
-	sio2ResourceOpen( sio2->_SIO2resource, 
-					 "Hello3DWorld.sio2", 1);
-	
-	while( i != sio2->_SIO2resource->gi.number_entry )
-	{
-		sio2ResourceExtract( sio2->_SIO2resource, NULL );
-		++i;
-	}
-	
-	sio2ResourceClose( sio2->_SIO2resource );
-	sio2ResourceBindAllImages( sio2->_SIO2resource );
-	sio2ResourceBindAllMaterials( sio2->_SIO2resource );
-	sio2ResourceBindAllMatrix( sio2->_SIO2resource );
-	sio2ResourceGenId( sio2->_SIO2resource );
-	sio2ResetState();
-	
-	SIO2image		*_SIO2image		= NULL;
-	SIO2material	*_SIO2material	= NULL;
-	SIO2stream		*_SIO2stream	= NULL;
-	
-	_SIO2stream = sio2StreamOpen( "default16x16.tga", 1 );
-	
-	if( _SIO2stream )
-	{
-		_SIO2image = sio2ImageInit( "default16x16.tga" );
-		
-		{
-			sio2ImageLoad(	_SIO2image, _SIO2stream );
-			sio2ImageGenId( _SIO2image, NULL, 0.0f );
-		}
-		_SIO2stream = sio2StreamClose( _SIO2stream );
-		
-		_SIO2material = sio2MaterialInit( "default16x16" );
-        
-		{
-			_SIO2material->blend = SIO2_MATERIAL_COLOR;
-			_SIO2material->_SIO2image[ SIO2_MATERIAL_CHANNEL0 ] = _SIO2image;
-		}
-        
-		_SIO2font_default = sio2FontInit( "default16x16" );
-        
-		_SIO2font_default->_SIO2material = _SIO2material;
-		_SIO2font_default->n_char		= 16;
-		_SIO2font_default->size			= 16.0f;
-		_SIO2font_default->space		= 8.0f;
-		sio2FontBuild( _SIO2font_default );
-	}
-    
-	sio2->_SIO2camera = sio2ResourceGetCamera( sio2->_SIO2resource, 
-                                              "camera/Camera");
-    
-	sio2Perspective( sio2->_SIO2camera->fov,
-                    sio2->_SIO2window->scl->x / sio2->_SIO2window->scl->y,
-                    sio2->_SIO2camera->cstart,
-                    sio2->_SIO2camera->cend );
-	
-	sio2->_SIO2window->_SIO2windowrender = templateRender;
-}
 
 vec2 start;
 
