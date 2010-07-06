@@ -20,6 +20,7 @@ unsigned char tap_select = 0;
 SIO2font *_SIO2font_default = NULL;
 SIO2object *selection = NULL;
 
+vec2 start;
 vec2 t;
 
 void templateLoading ( void )
@@ -92,6 +93,9 @@ void templateRender( void )
 {
 	glMatrixMode( GL_MODELVIEW );
 	glLoadIdentity();
+    
+    // if clear on GL_DEPTH_BUFFER_BIT only, text label backgrounds fill in over time
+    // glClear( GL_DEPTH_BUFFER_BIT );
 	glClear( GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT );
 	
 	static SIO2object *earth = sio2ResourceGetObject( sio2->_SIO2resource,
@@ -160,8 +164,7 @@ void templateRender( void )
 				_SIO2font_default->_SIO2material->diffuse->z = 1.0f;
 				_SIO2font_default->_SIO2material->diffuse->w = 1.0f;
                 
-				sio2FontPrint( _SIO2font_default, SIO2_TRANSFORM_MATRIX_APPLY, "Hello 3D Space!" );
-				
+				sio2FontPrint( _SIO2font_default, SIO2_TRANSFORM_MATRIX_APPLY, "Hello 3D Space!" );				
 				break;
 			}
                 
@@ -174,12 +177,13 @@ void templateRender( void )
 				_SIO2font_default->_SIO2material->diffuse->w = 1.0f;
                 
 				sio2FontPrint( _SIO2font_default, SIO2_TRANSFORM_MATRIX_APPLY, "Hello 3D World!" );
-                
 				break;
 			}
 		}
 		sio2MaterialReset();
 		sio2FontReset();
+        
+        // multi-touch text feedback
 		if( sio2->_SIO2window->n_touch )
 		{
 			_SIO2font_default->_SIO2transform->loc->y = 24.0f;
@@ -225,8 +229,6 @@ void templateShutdown( void )
 	printf("\nSIO2: shutdown...\n" );
 }
 
-
-vec2 start;
 
 void templateScreenTap( void *_ptr, unsigned char _state )
 {
