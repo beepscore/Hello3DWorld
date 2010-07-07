@@ -103,7 +103,9 @@ void templateRender( void )
 	
 	if( earth )
 	{
-		earth->_SIO2transform->rot->z += (spin_factor * 0.05f );
+		// reduce touch sensitivity by using d_time.  Ref Mullen Ch4pg70
+        // earth->_SIO2transform->rot->z += (spin_factor * 0.05f );
+        earth->_SIO2transform->rot->z += (spin_factor * sio2->_SIO2window->d_time);
 		sio2TransformBindMatrix( earth->_SIO2transform );
 	}
     
